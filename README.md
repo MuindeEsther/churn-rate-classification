@@ -10,8 +10,8 @@ The dataset used in this analysis contains various customer attributes along wit
 ## Methodology
 ### Data Preprocessing
 
-* Handling Missing Values: The dataset was checked for missing values, and necessary imputations were made (although the initial dataset had no missing values).
-*Encoding Categorical Variables: Non-numeric columns were converted to numerical format using label encoding to facilitate model training.
+* **Handling Missing Values:** The dataset was checked for missing values, and necessary imputations were made (although the initial dataset had no missing values).
+* **Encoding Categorical Variables:** Non-numeric columns were converted to numerical format using label encoding to facilitate model training.
 
 ### Exploratory Data Analysis (EDA)
 
@@ -20,9 +20,9 @@ The dataset used in this analysis contains various customer attributes along wit
 
 ### Model Building
 
-* Handling Data Imbalance: Implemented SMOTE to address the imbalance in the churn classes, ensuring the model learns equally from both classes.
-* Model Training: Trained multiple models including Decision Tree, Random Forest, and XGB Classifier.
-* Model Evaluation: Evaluated models based on accuracy, F1 score, and confusion matrices. Focused on F1 score to prioritize the reduction of false negatives.
+* **Handling Data Imbalance:** Implemented SMOTE to address the imbalance in the churn classes, ensuring the model learns equally from both classes.
+* **Model Training:** Trained multiple models including Decision Tree, Random Forest, and XGB Classifier.
+* **Model Evaluation:** Evaluated models based on accuracy, F1 score, and confusion matrices. Focused on F1 score to prioritize the reduction of false negatives.
 
 ## Results
 
@@ -36,6 +36,6 @@ The analysis indicates that the Random Forest Classifier is highly effective for
 
 Further improvements can be explored through:
 
-* Feature Engineering: More sophisticated feature engineering techniques could be applied to extract additional predictive power from the data.
-* Model Optimization: Further tuning of model parameters could improve performance, particularly in minimizing false negatives.
-* Deployment: The model could be integrated into a live environment to make real-time predictions and track its performance over time.
+* **Feature Engineering:** More sophisticated feature engineering techniques could be applied to extract additional predictive power from the data.
+* **Model Optimization:** Further tuning of model parameters could improve performance, particularly in minimizing false negatives.
+* **Deployment:** The model could be integrated into a live environment to make real-time predictions and track its performance over time.
